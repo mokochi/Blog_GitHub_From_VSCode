@@ -1,0 +1,9 @@
+<apex:page >
+  <h1>Hello World2</h1>
+  <br/>
+  <apex:outputText value="개발자 콘솔 테스트"/>
+  <br/>
+  <apex:outputLink value="{!URLFOR($Page.HelloWorld)}">
+      <apex:outputText value="HelloWorld 페이지에 이동"/>
+  </apex:outputLink>
+</apex:page>
